@@ -1,0 +1,6 @@
+[package]
+name = "plato"
+version = "0.1.0"
+authors = ["Musale Martin <martinmshale@gmail.com>"]
+
+[dependencies]
