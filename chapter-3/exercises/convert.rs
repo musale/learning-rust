@@ -12,8 +12,8 @@ fn main() {
     );
 }
 
-// converts passed temp to celcius if true
-// otherwise it's converted to fahrenheit
+// converts passed temp to fahrenheit if true
+// otherwise it's converted to celcius
 // (0°C × 9/5) + 32 = 32°F -> C to F
 // (0°F − 32) × 5/9 = -17.78°C -> F to C
 fn converter(temp: f64, celsius: bool) -> f64 {
