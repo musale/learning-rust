@@ -1,0 +1,6 @@
+[package]
+name = "ref_and_borrow"
+version = "0.1.0"
+authors = ["Martin Musale <martinmshale@gmail.com>"]
+
+[dependencies]
