@@ -16,6 +16,14 @@ fn main() {
     let six = plus_one(five);
     let none = plus_one(None);
 
+    let coin = Coin::Penny;
+    let mut count = 0;
+    if let Coin::Quarter(state) = coin {
+        println!("State quarter from {:?}!", state);
+    } else {
+        count += 1;
+    }
+    println!("count is {}", count)
 }
 
 #[derive(Debug)]
