@@ -8,6 +8,14 @@ impl Rectangle {
     fn area(&self) -> u32 {
         self.width * self.height
     }
+
+    // associated functions. static methods
+    fn square(size: u32) -> Rectangle {
+        Rectangle {
+            width: size,
+            height: size,
+        }
+    }
 }
 
 fn main() {
@@ -21,4 +29,8 @@ fn main() {
         "The area of the rectangle is {} square pixels.",
         rect1.area()
     );
+
+    // call associated function using ::
+    let sq = Rectangle::square(3);
+    println!("square is {:?}", sq);
 }
